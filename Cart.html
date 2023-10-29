@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="site. ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="Cart.css"/>
+    <title>Votre Panier</title>
+</head>
+<body>
+    <header class="navbar">
+        <a href="home.html" class="nav"><b>Petits Morceaux</b></a>
+        <a href="contact.html" class="nav"> Nous Contacter</a>
+        <a href="apropos.html" class="nav"> À propos</a>
+        <img class="loupe" src="data:image/png;base64,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">
+        <input type="text" placeholder="Recherche..." class="recherche">
+        <a href="Cart.html"><img class="bag" src="data:image/png;base64,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"></a>
+        <a class="nav" href="login.html"> Login </a>
+    </header>
+    <div class="titre">
+        <p1 class="titretxt"> Votre Panier</p1><br>
+    </div>
+    <div class="container">
+        <div class="produits">
+            <div class="paragraphe">
+                <p2> Pas encore prêt à partir ? <a href="shop.html" class="paragrapheTxT">Continuez vos achats</a></p2> <br>
+                <p3> Voici les articles actuellement présents dans votre panier :</p3> <br>
+            </div>
+            <br>
+            <div class="articles">
+                <div class="infoArticle">
+                    <div>
+                        <img class="image" src="https://www.treetopzencenter.org/wp-content/uploads/2017/01/dreamstime_s_5065719.jpg">
+                    </div>
+                    <div class="txtArticles">
+                        <p1> <b>Simple grain de riz</b></p1> <br>
+                        <p2> Quantité : 1</p2> <br>
+                        <p3> <b>100&#8364;</b></p3> <p4> Supprimer</p4>
+                    </div>
+                </div>
+                <hr> <br>
+                <div class="infoArticle">
+                    <div>
+                        <img class="image" src="https://t4.ftcdn.net/jpg/00/54/59/45/360_F_54594574_lNrxHtNnK1uGzwE1a9D7TQNyEFQiNj2y.jpg">
+                    </div>
+                    <div class="txtArticles">
+                        <p1> <b>Simple petit pois</b></p1> <br>
+                        <p2> Quantité : 9</p2> <br>
+                        <p3> <b>900&#8364;</b></p3> <p4> Supprimer</p4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panier">
+            <div class="titrePanier">
+                <p1> Votre Commande</p1> <br>
+            </div>
+            <br>
+            <div class="commande">
+                <input type="text" placeholder="Entrez un code coupon..." class="coupon"> <br>
+                <br>
+                <p2>Subtotal :</p2><p3> 1000&#8364;</p3> <br>
+                <p4>Frais d'envoi :</p4><p5> Calculé plus tard ૮ ˶ᵔ ᵕ ᵔ˶ ა</p5> <br>
+            </div>
+            <hr>
+            <div class="total">
+                <p7> Total </p7> <p8> 1000&#8364;</p8> <br>
+                <br>
+                <button class="Commander"> Valider la commande</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="InfoCommande">
+            <p1> Informations de la Commande :</p1>
+        </div>
+        <hr class="hrInfo">
+        <br>
+        <div class="infos">
+            <button class="accordion">Informations sur les retours & remboursement</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, quae deleniti et voluptates quod mollitia sit exercitationem, dignissimos consequuntur laudantium tempore veniam quam dicta quia facere odio, modi porro obcaecati.</p>
+                </div>
+            <hr class="hrAcco">
+            <button class="accordion">Options concernant l'expédition</button>
+                <div class="panel">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere dolores unde quam impedit, modi nihil nostrum maiores ab incidunt quibusdam? Nobis adipisci in quas hic, error eius aliquam possimus doloremque.</p>
+                </div>
+            <hr class="hrAcco">
+            <button class="accordion">Autres informations</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates corporis voluptas consequatur explicabo nostrum, sunt ullam, perspiciatis enim voluptatibus dolore quisquam, assumenda delectus. Ipsam illum eum expedita placeat eligendi!</p>
+                </div>
+            </button>
+        </div>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+          });
+        }
+    </script>
+</body>
+</html>

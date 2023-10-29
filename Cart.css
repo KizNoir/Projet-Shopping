@@ -1,0 +1,202 @@
+.navbar{
+    width: 100%;
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+    margin-left: -10px;
+    margin-top: -10px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.nav{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.nav:hover{
+    color:rgb(121, 121, 121);
+}
+.recherche{
+    background-color: black;
+    color:white;
+    border:none;
+    padding-top: 5px;
+}
+.loupe{
+    width:20px;
+    height:auto;
+}
+.bag{
+    width:30px;
+    height:auto;
+    margin-left: 700px;
+    margin-right: 0px;
+}
+
+
+
+
+
+.titre{
+    margin-top: 40px;
+    position:relative;
+    margin-left:10%;
+}
+.titretxt{
+
+    font-size: 30px;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.infoArticle{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    width:auto;
+    height:150px;
+}
+.txtArticles p1{
+    font-size: 20px;
+}
+.txtArticles p2{
+    font-size: 15px;
+    position:relative;
+    top:10px;
+}
+.txtArticles p3{
+    font-size: 20px;
+    position:relative;
+    top:40px;
+}
+.txtArticles p4{
+    font-size: 12px;
+    text-decoration: underline;
+    position:relative;
+    top:40px;
+    left:100px;
+}
+
+.paragraphe p2{
+    font-size: 14px;
+}
+.paragraphe p3{
+    font-size: 14px;
+}
+.paragrapheTxT{
+    font-size: 14px;
+    color:rgb(94, 55, 55);
+    text-decoration: underline;
+}
+
+
+
+.panier{
+    margin-left: 0px;
+}
+.titrePanier{
+    font-size: 20px;
+    color:black;
+}
+.coupon{
+    width:300px;
+    border: 1px, #ccc;
+    padding:8px;
+}
+.commande p2{
+    font-size: 14px;
+}
+.commande p3{
+    font-size: 14px;
+    margin-left: 215px;
+}
+.commande p4{
+    font-size: 14px;
+}
+.commande p5{
+    font-size: 12px;
+    color:#666666;
+    margin-left: 80px;
+}
+.total p7{
+    font-size: 14px;
+}
+.total p8{
+    font-size: 14px;
+    margin-left: 245px;
+}
+.Commander{
+    width: 322px;
+    text-align: center;
+    color:white;
+    background-color: black;
+    border:none;
+    padding:8px;
+}
+.Commander:hover{
+    color:rgb(167, 167, 167);
+}
+
+
+
+.container2{
+    width: 50%;
+    margin-top: 200px;
+}
+.InfoCommande{
+    color:black;
+    font-size: 20px;
+}
+.hrInfo{
+    color:#666666;
+}
+.hrAcco{
+    color:#ccc
+}
+.accordion {
+    background-color: #ffffff;
+    color: #7c7c7c;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 14px;
+    transition: 0.4s;
+}
+  
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+  
+.accordion:after {
+    content: '\002B';
+    color: #7c7c7c;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+  
+.active:after {
+    content: "\2212";
+}
+  
+.panel {
+    padding: 0 18px;
+    background-color: rgb(255, 255, 255);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-size:14px;
+    color:#7c7c7c;
+}
